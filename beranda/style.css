@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: segoe UI;
+}
+
+.header {
+	width: 99.88%;
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	background-color: whitesmoke;
+	color: grey;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+li {
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	color: grey;
+	list-style-type: none;
+}
+
+li a {
+	color: grey;
+}
+
+li a:hover {
+	color:orangered;
+}
+
+.menu {
+	width: 99.88%;
+	height: 65px;
+	border: 1px solid;
+	background-color: ghostwhite;
+	border-color: lightgrey;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+}
+
+.konten {
+	width: 99.88%;
+	min-height: 900px;
+	border: 1px solid;
+	border-color: lightgrey;
+	margin: 0 auto;
+	margin-top: 100px;
+
+}
+
+#slider {
+	position: absolute;
+	width: 99.88%;
+	height: 380px;
+}
+
+#slider img {
+	width: 99.88%;
+	height: 400px;
+	position: absolute;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+
+.footer {
+	width: 99.88%;
+	height: 100px;
+	border: 1px solid;
+	background-color: #2e3131;
+	border-color: grey;
+	bottom: 0;
+	float: left;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Segoe UI';
+}
+.card:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.price {
+	color: grey;
+	font-size: 22px;
+}
+
+.card button {
+	border: none;
+	outline: 0;
+	padding: 10px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 40%;
+	font-size: 15px;
+	float:left;
+	margin: 0.1px;
+	margin-left:15px;
+}
+.card button:hover {
+	opacity: 0.7;
+}
+.wrapper{	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.content-catalogue{
+		width: 75%;
+		height: 400px;
+		border: 1px solid;
+		border-color: lightgrey;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 10px;
+}
+.after-maps-left{
+	padding: 10px;
+	height: 200px;
+	width:100%;
+	margin-left: 140px;
+	font-family:segoe UI;
+}
+.after-maps-right{
+float: left;
+width: 20%;
+background-color: #000;
+height:400px;
+margin-left: 825px;
+margin-bottom:25px;
+margin-top:-164px;
+text-align: center;
+font-family: segoe UI;
+}
+.wrap-content-about{
+	width: 100%;
+	min-height: 1000px;
+	margin-top: 100px;
+}
+.content-about{
+	width: 75%;
+	height: 400px;
+	border: 1px solid;
+	border-color: lightgrey;
+	background-color: lightgrey;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+.tulisan-about{
+		width: 75%;
+		min-height: 50px;
+		margin: 0 auto;
+		margin-top: 5px;
+		padding:5px;
+		text-align:justify;
+
+}
+.ikon{
+	padding: 5px;
+	margin-bottom: 50px;
+	letter-spacing: 10px;
+	font-size: 20px;
+}
+.ikon i:hover{
+	color: #ff6600;
+}
+
+.judul-tengah{
+	font-family: segoe UI;
+	font-size: 20px;
+	text-align :center; 
+	float: center;
+	
+}
+
+.after-content{
+	width: 75%;
+	min-height: 500px;
+	border: 1px solid;
+	border-color: lightgrey;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	padding:10px;
+	
+}
+.table-dalam{
+	margin-top: 500%;
+}
+
+.content-detail-dalam{
+	margin: 10% 10% 5% 10%;
+	border: 1px solid;
+	height: 70%;
+	width: 80%;
+	border-color: lightgrey;
+	background-color:lightgrey;
+}
+.card-detail{
+	max-width: 300px;
+	font-family: 'Segoe UI';
+}
+footer ul{
+   color:orangered;
+   font-weight: bold;
+}
+.footer-tengah{
+	margin:10px;
+}
+.footer-kanan{
+	float: right;
+	margin:25px;
+}
+.to-cart{
+	border-radius: 4px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: black;
+}
+.after-slider{
+	margin-top:32%;
+	text-align: center;
+}

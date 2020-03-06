@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #C8C8C8;
+	font-family: 'Arvo', serif;
+}
+
+table{
+	border-collapse: collapse;
+}
+.header{
+	background: black;
+	height: 85px;
+	padding: 15px;
+}
+
+.judul{
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.logout{
+	cursor: pointer;
+	float: right;
+	background-color: #CC0000;
+	border: none;
+	color: white;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	margin-top: -50px;
+	margin-right: 30px;
+}
+
+.logout:hover {
+  	background-color: #0099FF;
+  	color: white;
+}
+
+.tabel{
+	background-color: rgba(137, 196, 244, 1);
+	float: left;	
+	width: 108%;
+	height: 130%;
+	border-spacing: 50px;
+	text-align: center;
+	font-family: 16px;
+	font-style: 'Arvo', serif;
+}
+.sidebar{
+	background: black;
+	float: left;
+	width: 200px;
+	height: 100vh;
+	margin-top: -5px;
+}
+.konten{
+	float: left;
+	height: 100%;
+	padding: 2%;
+	width: 75%;
+}
+.link{
+	background-color: #3333CC;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.link:hover {
+  background-color: #0099FF;
+  color: white;
+}
+
+.konten table{
+	border-collapse: collapse;
+	background-color: white;
+}
+
+.sidebar_item{
+	color: white;
+	margin: 5% 10% 5% 10%;
+	padding: 5px;
+}
+span:hover{
+	background-color: grey;
+}
+.sidebar_container{
+	display: flex;
+	flex-direction: column;
+	margin: 0 5% 100% 5%;
+	background-color: #606060;
+	width: 80%;
+	border-radius: 5px;
+}
+.button-aksi{
+	cursor: pointer;
+	border: none;
+	color: white;
+	margin: 4px 4px 4px 4px;
+	padding: 3px 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+     width: 70px;
+
+}
+
+.button-aksi:hover {
+  background-color: #0099FF;
+  color: white;
+}
+input[type=text],[type=number] select {
+  font-family: segoe UI;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  font-family:  'Arvo', serif;
+  width: 50%;
+  background-color: rgba(77, 5, 232, 1);
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#5333ed;
+}
+
